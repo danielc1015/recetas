@@ -26,45 +26,32 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="235dp"
         android:layout_marginTop="25dp"
-        android:text="Button" />
+        android:text="Buscar" />
 
 
-
-    <ScrollView
+    <ListView
+        android:id="@+id/lvIngredientes"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="523dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="136dp" />
 
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:text=""
+        android:textSize="20dp" />
 
-        <LinearLayout
-            android:layout_width="379dp"
-            android:layout_height="92dp"
-            android:layout_marginStart="14dp"
-            android:layout_marginTop="100dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/tvIngredientes"
-                android:layout_width="379dp"
-                android:layout_height="92dp"
-                android:text="Ingredientes" />
-
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="0dp"
-                android:text="Calorías totales:" />
-
-            <TextView
-                android:id="@+id/tvCalorias"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="0dp" />
-
-        </LinearLayout>
-
-
-    </ScrollView>
+    <TextView
+        android:id="@+id/tvCalorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="666dp"
+        android:layout_centerHorizontal="true"
+        android:text="" />
 </RelativeLayout>
